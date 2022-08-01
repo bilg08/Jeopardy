@@ -1,0 +1,56 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: rgba(46,46,46);
+	color: rgba(255,255,255);
+	width: 100%;
+	box-sizing: content-box;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items:center ;
+	flex-direction: column;
+	font-family: 'Anton', sans-serif;
+}
+#game{
+	width: 1500px;
+	height: 1500px;
+	display: flex;
+	justify-content: center;
+	align-items:center;
+	flex-wrap: wrap;
+	gap: 50px;
+}
+.cart{
+	width: 250px;
+	height: 250px;
+	font-size: 40px;
+	background: rgb(26,26,255);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	letter-spacing: 5px;
+	cursor: pointer;
+	transition: 2s;
+}
+.buttons{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+}
+.buttons button{
+	display: none;
+	border: none;
+}
+
+.questions{
+	font-size: 12px;
+	align-self: center;
+	justify-self: center;
+	display: none;
+}
+.score{
+	align-self: center;
+}
